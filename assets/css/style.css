@@ -23,11 +23,13 @@ div{
 
 }
 
-button{background:gray;
-position: absolute;
-bottom:50%;
-left:37%;
-width:300px;}
+button{
+    background:gray;
+    position: absolute;
+    bottom:50%;
+    left:37%;
+    width:300px;
+}
 
 .resultsTitle{
     font-size:72px;
@@ -36,4 +38,12 @@ width:300px;}
 
 .resultsContent{
     font-size:48px;
+}
+.playAgain{
+    position:absolute;
+    bottom:20px;
+    }
+
+.question,.answer{
+    font-weight: bold;
 }
