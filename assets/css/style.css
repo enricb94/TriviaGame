@@ -1,0 +1,39 @@
+body{
+    padding:25px;
+    background-image: url("../images/background.jpeg")
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    color:rgb(240, 51, 83);
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+div{
+    font-size:30px;
+    text-align: center;
+}
+.container{
+    padding:25px;
+    width:80%;
+    margin:auto;
+    background: rgb(255, 255, 255);
+    height:800px;
+    position: relative;
+
+}
+
+button{background:gray;
+position: absolute;
+bottom:50%;
+left:37%;
+width:300px;}
+
+.resultsTitle{
+    font-size:72px;
+    font-weight: bold;
+}
+
+.resultsContent{
+    font-size:48px;
+}
