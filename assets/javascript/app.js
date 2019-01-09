@@ -3,13 +3,31 @@
 //ARRAY OF OBJECTS, WHERE EVERY OBJECT INCLUDES THE CONTENT OF EACH QUESTION.
 var allTheQuestions = [
     {
-        question:"How many protons does an oxygen atom have?",
-        options:["5","6","7","8"],
-        answer:"6",
+        question:"What will happen if you fill a glass to the top with ice and water, and the ice melts?",
+        options:["The glass will over flow.","The water level will drop.","The level of water will remain the same.","The ice will never melt."],
+        answer:"The water level will drop.",
         answerIndex:1,
-        correctText: "Correct! Oxygen's molecular weight is 12, with 6 protons and 6 neutrons in the nucleus.",
-        wrongText:"Wrong... an oxygen atom has 6 protons, 6 neutrons, and 6 electrons!"
+        correctText: "Correct! The density of ice is less than water, so the level of water will decrease!",
+        wrongText:"Wrong... the water level will decrease because the density of ice is less than that of water!"
     },
+
+    {
+      question:"What is the pH(power of hydrogen) of water?",
+      options:["4","9","6","7"],
+      answer:"7",
+      answerIndex:3,
+      correctText: "Correct! Pure water is a neutral solution, and thus it has a pH of 7.",
+      wrongText:"Sorry... the right answer was pH 7."
+    },
+
+    {
+      question:"Which of these is a non-metal?",
+      options:["Aluminum","Copper","Carbon","Lithium"],
+      answer:"Carbon",
+      answerIndex:2,
+      correctText: "Correct! Carbon does not contain metallic bonds.",
+      wrongText:"Sorry... the right answer was Carbon."
+  },
 
     {
         question:"What city hosts the Nobel Prize every year?",
@@ -19,6 +37,7 @@ var allTheQuestions = [
         correctText: "Correct! Stockholm has been the host of the prestigious Noble Prize since 1895.",
         wrongText:"Sorry... the right answer was Stockholm, Sweden."
     },
+
     {
         question:"Where will the 2020 Olympics take place?",
         options:["Tokyo","Seoul","Sydney","Kuala Lumpur"],
