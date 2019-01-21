@@ -226,7 +226,7 @@ function decrement()
 {
     number--;
 
-    $(".time").html("<h2>" + number + "</h2>");
+    $(".time").html("<div class='number'>" + number + "</div>");
 
     if (number === 0) 
     {
